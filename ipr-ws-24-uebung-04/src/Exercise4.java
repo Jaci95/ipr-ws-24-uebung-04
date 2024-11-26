@@ -21,10 +21,8 @@ if (list == null || list.length == 0 ) {
     
     static boolean isValidSudokuNumber(int[][] sudoku, int sudokuNumber) {
         // your code
-        return true; // just to compile
         while (sudoku.equals(sudokuNumber)) {
-            
-            
+            return false;
         }
 
     }
